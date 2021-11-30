@@ -1,0 +1,23 @@
+{
+  "name": "filetree",
+  "version": "1.0.0",
+  "description": "auto.ria interview task",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "npx eslint ./",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.16.3",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "jest": "^27.4.2"
+  }
+}
